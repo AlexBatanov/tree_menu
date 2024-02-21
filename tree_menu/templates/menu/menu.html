@@ -1,0 +1,16 @@
+<ul>
+  {% for item in items %}
+  <li>
+    <a href="?main_menu={{ item.id }}">
+      {% if cur_id == item.id %}
+        <span class="active">{{ item.title }}</span>
+      {% else %}
+        {{ item.title }}
+      {% endif %}
+    </a>
+  </li>
+    {% if item.child_items %}
+      {% include 'menu/menu.html' with items=item.child_items %}
+    {% endif %}
+  {% endfor %}
+</ul>

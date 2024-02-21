@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% load menu_tags %}
+{% block content %}
+    <b><a href="http://127.0.0.1:8000/menu/">Меню:</a></b>
+  {%  draw_menu 'main_menu' %}
+{% endblock %}
