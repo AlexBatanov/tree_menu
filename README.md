@@ -1,7 +1,7 @@
 # Тестовое задание Django Tree Menu
 
 Это приложение Django позволяет создавать иерархические древовидные меню в админ-панели и отображать их на любой странице с помощью пользовательского тега шаблона.
-![Alt Text](https://github.com/AlexBatanov/tree_menu/blob/main/git_media/Запись%20экрана%20от%202024-02-21%2015-39-27.webm)
+![Alt Text]([https://github.com/AlexBatanov/tree_menu/blob/main/git_media/Запись%20экрана%20от%202024-02-21%2015-39-27.webm](https://github.com/AlexBatanov/tree_menu/blob/main/git_media/Запись%20экрана%20от%202024-02-21%2015-39-27.gif))
 ## Особенности
 - Иерархическая структура древовидного меню
 - Элементы меню хранятся в базе данных
