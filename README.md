@@ -25,6 +25,7 @@
    ```
 3. Запуск:
    ```
+   cd tree_menu/tree_menu
    python manage.py runserver
    ```
 4. Проект содержит в себе тестовую базу и будет доступен по адресу:
