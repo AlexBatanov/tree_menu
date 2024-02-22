@@ -21,7 +21,7 @@
    ```
 2. Установите необходимые пакеты:
    ```
-   pip install django
+   pip install django==5.0
    ```
 3. Запуск:
    ```
